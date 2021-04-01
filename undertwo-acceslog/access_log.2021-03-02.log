@@ -1,0 +1,7 @@
+[02/Mar/2021:09:42:06 +0700] XNIO-2 task-1 OPTIONS /api/auth/signing HTTP/1.1 200 - -
+[02/Mar/2021:09:42:07 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 500 152 -
+[02/Mar/2021:09:42:16 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 200 349 -
+[02/Mar/2021:09:42:42 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 200 349 -
+[02/Mar/2021:09:58:47 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 500 152 -
+[02/Mar/2021:10:05:06 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 200 349 -
+[02/Mar/2021:10:05:57 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 200 350 -

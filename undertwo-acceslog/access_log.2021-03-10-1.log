@@ -1,0 +1,14 @@
+[11/Mar/2021:09:59:17 +0700] XNIO-2 task-2 OPTIONS /api/path/research HTTP/1.1 200 - -
+[11/Mar/2021:09:59:17 +0700] XNIO-2 task-1 GET /api/path/research HTTP/1.1 200 398 -
+[11/Mar/2021:10:04:14 +0700] XNIO-2 task-1 GET /api/path/research/4 HTTP/1.1 200 315 -
+[11/Mar/2021:10:04:14 +0700] XNIO-2 task-2 GET /api/path/file/4 HTTP/1.1 200 687 -
+[11/Mar/2021:10:04:40 +0700] XNIO-2 task-2 GET /api/path/research HTTP/1.1 200 398 -
+[11/Mar/2021:10:04:44 +0700] XNIO-2 task-2 GET /api/path/research HTTP/1.1 200 398 -
+[11/Mar/2021:10:21:36 +0700] XNIO-2 task-2 GET /api/path/research/4 HTTP/1.1 200 315 -
+[11/Mar/2021:10:21:36 +0700] XNIO-2 task-1 GET /api/path/file/4 HTTP/1.1 200 687 -
+[11/Mar/2021:10:21:48 +0700] XNIO-2 task-1 GET /api/path/research/4 HTTP/1.1 200 315 -
+[11/Mar/2021:10:21:48 +0700] XNIO-2 task-2 GET /api/path/file/4 HTTP/1.1 200 687 -
+[11/Mar/2021:10:22:20 +0700] XNIO-2 task-2 GET /api/path/research HTTP/1.1 200 398 -
+[11/Mar/2021:10:22:22 +0700] XNIO-2 task-2 GET /api/path/research/26 HTTP/1.1 200 320 -
+[11/Mar/2021:10:22:22 +0700] XNIO-2 task-1 GET /api/path/file/26 HTTP/1.1 200 518 -
+[11/Mar/2021:10:22:58 +0700] XNIO-2 task-1 GET /api/path/research HTTP/1.1 200 398 -

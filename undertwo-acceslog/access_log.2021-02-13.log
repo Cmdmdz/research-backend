@@ -1,0 +1,8 @@
+[13/Feb/2021:05:48:09 +0700] XNIO-2 task-2 OPTIONS /api/path/research HTTP/1.1 200 - -
+[13/Feb/2021:05:48:10 +0700] XNIO-2 task-2 GET /api/path/research HTTP/1.1 500 211 -
+[13/Feb/2021:05:48:12 +0700] XNIO-2 task-2 GET /api/path/research HTTP/1.1 500 209 -
+[13/Feb/2021:05:48:17 +0700] XNIO-2 task-2 GET /api/path/research HTTP/1.1 500 211 -
+[13/Feb/2021:05:48:28 +0700] XNIO-2 task-2 OPTIONS /api/auth/signing HTTP/1.1 200 - -
+[13/Feb/2021:05:48:28 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 500 152 -
+[13/Feb/2021:05:48:32 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 200 297 -
+[13/Feb/2021:05:48:32 +0700] XNIO-2 task-2 GET /api/path/research HTTP/1.1 200 398 -
