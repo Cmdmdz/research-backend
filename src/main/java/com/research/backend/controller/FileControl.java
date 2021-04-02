@@ -2,7 +2,6 @@ package com.research.backend.controller;
 
 
 import com.research.backend.services.FileService;
-import com.research.backend.services.UrlDemo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +19,7 @@ import java.io.IOException;
 public class FileControl {
 
     private final FileService fileService;
-    private final UrlDemo urlDemo;
+
 
 
     @PostMapping("/file")

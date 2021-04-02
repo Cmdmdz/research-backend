@@ -914,3 +914,6 @@
 [02/Apr/2021:07:05:21 +0700] XNIO-2 task-1 GET /api/path/research HTTP/1.1 200 607 -
 [02/Apr/2021:07:05:26 +0700] XNIO-2 task-1 GET /api/path/research HTTP/1.1 200 607 -
 [02/Apr/2021:07:34:15 +0700] XNIO-2 task-1 GET /api/path/research HTTP/1.1 200 607 -
+[02/Apr/2021:14:45:34 +0700] XNIO-2 task-1 GET / HTTP/1.1 404 295 -
+[02/Apr/2021:14:45:34 +0700] XNIO-2 task-1 GET /favicon.ico HTTP/1.1 404 138 -
+[02/Apr/2021:14:46:16 +0700] XNIO-2 task-1 GET /api/auth/account HTTP/1.1 200 951 -
