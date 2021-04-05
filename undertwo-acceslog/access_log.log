@@ -917,3 +917,14 @@
 [02/Apr/2021:14:45:34 +0700] XNIO-2 task-1 GET / HTTP/1.1 404 295 -
 [02/Apr/2021:14:45:34 +0700] XNIO-2 task-1 GET /favicon.ico HTTP/1.1 404 138 -
 [02/Apr/2021:14:46:16 +0700] XNIO-2 task-1 GET /api/auth/account HTTP/1.1 200 951 -
+[02/Apr/2021:16:25:03 +0700] XNIO-2 task-1 OPTIONS /api/auth/signing HTTP/1.1 200 - -
+[02/Apr/2021:16:25:05 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 401 1857 -
+[02/Apr/2021:16:26:11 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 401 1859 -
+[02/Apr/2021:16:56:36 +0700] XNIO-2 task-2 OPTIONS /api/auth/signing HTTP/1.1 200 - -
+[02/Apr/2021:16:56:36 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 400 2170 -
+[02/Apr/2021:17:08:55 +0700] XNIO-2 task-2 OPTIONS /api/auth/signing HTTP/1.1 200 - -
+[02/Apr/2021:17:08:55 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 400 2169 -
+[02/Apr/2021:17:15:43 +0700] XNIO-2 task-2 POST /api/auth/signing HTTP/1.1 400 2168 -
+[02/Apr/2021:17:17:37 +0700] XNIO-2 task-1 POST /api/auth/signing HTTP/1.1 403 20 -
+[02/Apr/2021:17:17:49 +0700] XNIO-2 task-1 POST /api/auth/signing HTTP/1.1 400 2167 -
+[02/Apr/2021:17:26:22 +0700] XNIO-2 task-1 POST /api/auth/signing HTTP/1.1 400 2166 -
